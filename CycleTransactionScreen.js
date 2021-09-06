@@ -12,7 +12,7 @@ import {
 import * as Permissions from "expo-permissions";
 import { BarCodeScanner } from "expo-barcode-scanner";
 import * as firebase from "firebase";
-import db from "../config.js";
+import db from "./config.js";
 
 export default class TransactionScreen extends React.Component {
   constructor() {
